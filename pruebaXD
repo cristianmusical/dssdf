@@ -1,0 +1,10 @@
+import discord 
+from discord.ext import commands 
+
+client = commands.bot [command_prefix = '.']
+
+@client.event 
+async def on_ready(): 
+     print('el bot esta listo mi señor')
+
+client.run('ODU4NTEzMTIyOTg1NTA4ODk1.YNfOpg.ozdAEeZgqyS6qzSiR188NNT7nn8')
